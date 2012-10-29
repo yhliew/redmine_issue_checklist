@@ -2,3 +2,7 @@
 
 == Test
 rake test:plugins PLUGIN=redmine_issue_checklist RAILS_ENV=test_sqlite3
+
+== What's modified
+This is a fork of the plugin from http://redminecrm.com/projects/checklist/wiki version 1.0.3.
+I modified the plugin for it to allow duplication of checklist on issue duplication, based on changes in http://github.com/belike81/Redmine-Issue-Checklist-Plugin
